@@ -1,0 +1,18 @@
+[debug] [2022-04-23T10:03:04.022Z] ----------------------------------------------------------------------
+[debug] [2022-04-23T10:03:04.023Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\biwsc\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2022-04-23T10:03:04.024Z] CLI Version:   10.7.1
+[debug] [2022-04-23T10:03:04.024Z] Platform:      win32
+[debug] [2022-04-23T10:03:04.024Z] Node Version:  v16.14.0
+[debug] [2022-04-23T10:03:04.025Z] Time:          Sat Apr 23 2022 17:03:04 GMT+0700 (เวลาอินโดจีน)
+[debug] [2022-04-23T10:03:04.025Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-04-23T10:03:04.091Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/undefined [none]
+[debug] [2022-04-23T10:03:05.825Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/undefined 403
+[debug] [2022-04-23T10:03:05.826Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/undefined {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2022-04-23T10:03:05.826Z] HTTP Error: 403, The caller does not have permission
+[debug] [2022-04-23T10:03:05.959Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at module.exports (C:\Users\biwsc\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:47:12)
+    at RetryOperation._fn (C:\Users\biwsc\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:286:39)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[error] 
+[error] Error: Failed to get Firebase project undefined. Please make sure the project exists and your account has permission to access it.

@@ -1,0 +1,35 @@
+.space{
+    height: 8px;
+}
+.date{
+    padding: 5px;
+}
+.cal{
+    padding: 5px;
+}
+.cal2{
+    padding: 5px;
+}
+.calculator{
+    padding: 5px;
+}
+.calculator .input{
+    width: 10px;
+}
+input{
+    width: auto;
+}
+.h5{
+    padding: 4px;
+    font-size: 20px;
+    color: #076f2a;
+}
+body {
+    background: linear-gradient( 4deg, #7A57D1 ,#50C1E9);	
+    margin: 0;
+    padding: 0;
+   
+  }
+h1{
+    color: rgb(246, 240, 240);
+}

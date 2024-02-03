@@ -1,0 +1,89 @@
+
+<html>
+<head>
+    <title>Login and register form </title>
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="stylelog.css">      
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mitr&display=swap" rel="stylesheet">
+    
+
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-primary">
+        <div class="container-fluid">
+            <div class="features-icons-icon1">
+                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-people-fill" viewBox="0 0 16 16">
+                    <path d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1H7zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                    <path fill-rule="evenodd" d="M5.216 14A2.238 2.238 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.325 6.325 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1h4.216z"/>
+                    <path d="M4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z"/>
+                  </svg>
+            </div>
+            <a href="#" class="navbar-brand">We Healthy</a>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarToggle">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarToggle">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a href="profile.html" class="nav-link">Profile</a></li>
+                    <li class="nav-item"><a href="page_exe.html" class="nav-link">Exercise</a></li>
+                    <li class="nav-item"><a href="index com.html" class="nav-link">Community</a></li>
+                    <li class="nav-item"><a href="login.html" class="nav-link">Login</a></li>
+                    <li class="nav-item"><a href="index cal.html" class="nav-link">Cal</a></li>
+                    <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <div class="hero"></div>
+        
+        <div class="form-box"> 
+            
+            <form id="login" class="input-group2">
+                <h4 class="a">login</h4>
+                <input type="text" id="emailField" class="input-field" placeholder="Email" required/>
+                <input type="password" id="passField" class="input-field" placeholder="Enter password" required/>
+                 <!--   <input type="checkbox" class="chech-box"><span>Remember Password</span> -->
+                
+            </form>
+                <button type="submit" id="ButID_Login"  class="submit-btn" onclick="Login()"><a  class="link">Login</a></button>
+                <button type="submit"  id="backr" class="logout" onclick="Logout()"><a  class="link">Logout</a></button>
+                <a type="submit"  id="backr" class="Re" onclick="openpage()">Register</a>
+            
+            
+        </div>
+        <div class="social-icon">
+                <img src="https://cdn.discordapp.com/attachments/965824772166516756/965824934213472307/google.png">
+                <img src="https://www.innoherb.com/wp-content/uploads/2019/02/icon-facebook.png"  >
+                <img src="https://cdn.discordapp.com/attachments/965824772166516756/965824934402195476/Twitter_Logo.png">
+        </div>
+    </div>
+    
+    <script>
+        
+    </script> 
+
+<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script> <!-- เพิ่ม  Library -->
+<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script> <!-- เพิ่ม  Library -->
+<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script> <!-- เพิ่ม  Library -->
+
+
+    <script src="FirebaseConfig.js"></script>   <!-- เปิดใช้งานไฟล์ FirebaseConfig.js -->
+    <script src="file.srcipt.auth.js"></script>   <!-- เปิดใช้งานไฟล์ Lab2_Auth_script.js -->
+
+</body>
+</html> 
+      
+            
+            
+            
+            
+           
+        
+        

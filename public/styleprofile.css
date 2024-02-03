@@ -1,0 +1,180 @@
+*{
+  font-family: 'Mitr', sans-serif;
+}
+  body {
+     background-image: url("https://cdn.discordapp.com/attachments/882124765047947267/966981981537697843/96542a0c02d56a70.png");
+  }
+  .wrapper{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 890px;
+    height: 500px;
+    display: flex;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+  }
+  
+  .wrapper .left{
+    width: 20%;
+    background: linear-gradient( 45deg, #3399FF, #3366FF);
+    padding: 30px 25px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    text-align: center;
+    color: #f3f3f3ff;
+  }
+  
+  .wrapper .left img{
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .wrapper .left .name{
+    margin-top: 150px;
+    
+    
+  }
+  
+
+  
+  .wrapper .right{
+    width: 80%;
+    background: #f3f3f3ff;
+    padding: 30px 25px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+  
+  .wrapper .right .info,
+  .wrapper .right .projects{
+    margin-bottom: 25px;
+  }
+  
+  .wrapper .right .info h3,
+  .wrapper .right .projects h3{
+      margin-bottom: 15px;
+      padding-bottom: 5px;
+      border-bottom: 1px solid #e0e0e0;
+      color: #353c4e;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+  }
+  
+  .wrapper .right .info_data,
+  .wrapper .right .projects_data{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .wrapper .right .info_data .data,
+  .wrapper .right .projects_data .data{
+    width: 45%;
+  }
+  
+  .wrapper .right .info_data .data h4,
+  .wrapper .right .projects_data .data h4{
+      color: #000000;
+      margin-bottom: 5px;
+      position: absolute;
+  }
+  
+  
+  button{
+    width: 15%;
+    border: none;
+    background: linear-gradient( 45deg, #3399FF, #3366FF);
+    color: #fff;
+    padding: 15px;
+    position: absolute;
+    left: 415px;
+    top: 420px;
+    text-align: center;
+    
+}
+.link{
+  text-decoration:none;
+  color: #fff;
+}
+.wrapper .image{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+.wrapper img{
+  height: 120px;
+  width: 120px;
+  border-radius: 3px;
+  display: flex;
+  justify-content: left;
+  object-fit: cover;
+}
+
+.data input{
+    border: none;
+    background: transparent;
+    width: 75%;
+    color: #353c4e;
+    margin-bottom: 5px;
+    margin-top: 30px;
+    font-size: 20px;
+    
+    
+
+  }
+  
+  .first{
+  background: transparent;
+  border: none;
+  position: absolute;
+  left: 10px;
+  width: 10rem;
+  font-size: 20px;
+  color: #f3f3f3;
+  text-align: center;
+  
+}
+.name .last {
+  background: transparent;
+  border: none;
+  position: absolute;
+  left: 10px;
+  top: 210px;
+  width: 10rem;
+  font-size: 20px;
+  color: #f3f3f3;
+  text-align: center;
+  
+  
+  
+}
+
+.gender {
+  margin-top: 85px;
+  position: absolute;
+  left: 200px;
+}
+#gender{
+  position: absolute;
+  border: none;
+  background: transparent;
+  width: 90px;
+  font-size: 20px;
+  color: #353c4e;
+}
+
+.bmi{
+  position: absolute;
+  left: 440px;
+  margin-top: 90px;
+}
+
+#bmi{
+  position: absolute;
+  left: 0;
+  width: 90px;
+  background: transparent;
+  border: none;
+  font-size: 20px;
+  color: #353c4e;
+}
